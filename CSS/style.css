@@ -1,5 +1,42 @@
+body {
+	padding: 0 70px;
+}
+header {
+	position: fixed;
+	left: 50%;
+    top: 9px;
+    transform: translate(-50%);
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: grey;
+}
+.header-nav {
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.menu-search {
+	display: flex;
+	justify-content: space-between;
+}
+.header-nav ul li {
+	display: inline-block;
+}
+.search-icon {
+	height: 26px;
+	width: 26px;
+}
+.search-input {
+	display: none;
+}
+
 .container {
-	max-width: 1250px;
+	margin: 108px auto;
+	max-width: 1200px;
+
 }
 .slider {
 	width: 100%;
@@ -7,5 +44,8 @@
 .slides {
 	display: none;/*
 	max-width: 1640px;*/
+	width: 100%;
+}
+img {
 	width: 100%;
 }
