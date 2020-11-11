@@ -1,0 +1,11 @@
+.container {
+	max-width: 1250px;
+}
+.slider {
+	width: 100%;
+}
+.slides {
+	display: none;/*
+	max-width: 1640px;*/
+	width: 100%;
+}
