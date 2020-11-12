@@ -141,6 +141,7 @@ article {
     position: absolute;
     bottom: 0;
     left: 50%;
+    transform: translate(-50%, 5%);
 }
 .popular {
 	position: relative;
