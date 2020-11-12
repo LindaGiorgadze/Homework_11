@@ -6,12 +6,11 @@ header {
 	left: 50%;
     top: 0px;
     transform: translate(-50%);
-	max-width: 1200px;
 	width: 100%;
 	margin: 0 auto;
-	background-color: grey;
 }
 .header-nav {
+	max-width: 1200px;
 	width: 100%;
 	margin: 0 auto;
 	display: flex;
@@ -22,30 +21,84 @@ header {
 	display: flex;
 	justify-content: space-between;
 }
+.menu {
+	margin: 0 103px 0 0;
+}
+.menu li {
+	margin-left: 50px;
+    font-size: 16px;
+}
 .header-nav ul li {
 	display: inline-block;
+}
+.menu li a {
+	color: #707070;
 }
 .search-icon {
 	height: 26px;
 	width: 26px;
+	vertical-align: middle;
+}
+/*ჰოვერი არ მუშაობს*/
+.search-icon:hover .search-input{
+	display: inline-block;
 }
 .search-input {
 	display: none;
+	vertical-align: middle;
+	border-radius: 20% 20%;
+	border: 1px solid white;
 }
 
 .container {
 	margin: 108px auto;
 	max-width: 1200px;
-
+	width: 100%;
 }
 .slider {
 	width: 100%;
+	height: 100%;
+	position: relative;
+	z-index: 1;
 }
 .slides {
-	display: none;/*
-	max-width: 1640px;*/
+	display: none;
 	width: 100%;
+	height: 100%;
+	max-height: 618px;
+	object-fit: cover;
 }
+.slide-button-left {
+	position: absolute;
+	top: 50%;
+	left: 5px;
+	/*transform: translate(0, 50%);*/
+	z-index: 9;
+	color: black;
+	font-size: 25px;
+	background-color: rgb(255, 255, 255, 0.5);
+}
+.slide-button-right {
+	position: absolute;
+	top: 50%;
+	right: 5px;
+	/*transform: translate(0, 50%);*/
+	z-index: 9;
+	color: black;
+	font-size: 25px;
+	background-color: rgb(255, 255, 255, 0.5);
+}
+.popular {
+	margin: 150px 0 0;
+}
+
+
+
+
+
+
+
+
 img {
 	width: 100%;
 }
